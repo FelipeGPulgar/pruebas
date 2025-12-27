@@ -1,0 +1,33 @@
+# Ignorar archivos de compilación
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignorar archivos de test
+*.test
+
+# Ignorar archivos de output
+*.out
+
+# Ignorar vendor
+vendor/
+
+# Ignorar archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar logs
+*.log
+
+# Ignorar archivos temporales
+tmp/
+temp/

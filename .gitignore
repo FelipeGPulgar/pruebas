@@ -1,0 +1,50 @@
+# Dependencias
+node_modules/
+vendor/
+
+# Archivos de compilación
+build/
+dist/
+deployment/
+*.tar.gz
+*.zip
+
+# Archivos de entorno (NUNCA subir credenciales)
+.env
+.env.local
+.env.production
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-*
+
+# Logs
+*.log
+logs/
+
+# Archivos compilados
+*.exe
+*.dll
+*.so
+*.dylib
+logitech-api
+backend/logitech-api
+
+# Temporales
+tmp/
+temp/
+.cache/
+
+# SvelteKit
+.svelte-kit/
+/package
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
